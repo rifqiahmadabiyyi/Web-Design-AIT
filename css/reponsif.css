@@ -1,0 +1,262 @@
+/*
+##Device = Desktop large
+##Screen = 1600px higher resolution desktops
+*/
+
+@media (min-width: 1600px) {
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1367px) and (max-width: 1599px) {
+  .text {
+    margin-top: 15rem;
+    margin-left: 5rem;
+  }
+  .sistem {
+    margin-top: 10.5rem;
+  }
+  .kontak {
+    margin-left: 3rem;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .text {
+    margin-top: 11rem !important;
+  }
+  .sistem {
+    margin-top: 7rem !important;
+  }
+  .kontak {
+    margin-left: 0rem !important;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero .w-50 {
+    width: 100% !important;
+  }
+  .hero {
+    background-position-x: right;
+  }
+  .text {
+    margin-top: 10rem;
+  }
+  .sistem.w-60 {
+    width: 100%;
+  }
+  .robot {
+    height: 249px;
+    margin-top: 35%;
+    margin-bottom: 35%;
+  }
+  .latar-belakang .mt-5 {
+    margin-top: 3rem !important;
+  }
+
+  .manfaat .col-md-4 {
+    width: 100%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .manfaat .col-md-7 {
+    width: 100%;
+  }
+
+  .keunggulan .col-sm-6.maskot {
+    width: 33.33333%;
+    margin-top: 1rem !important;
+  }
+  .keunggulan .col-sm-6.text-maskot {
+    width: 66.66667%;
+    margin-top: 1rem !important;
+  }
+  .keunggulan .maskot img {
+    width: 120%;
+    margin-top: 40%;
+  }
+  .kontak {
+    margin-top: 3rem;
+  }
+  .hubungi-kami .col-6 {
+    width: 100%;
+  }
+  .hubungi-kami {
+    background-position-x: center;
+  }
+  .manfaat .card {
+    height: 269px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 876px) {
+  .hero .w-50 {
+    width: 100% !important;
+  }
+  .hero {
+    background-position-x: right;
+  }
+  .text {
+    margin-top: 8rem;
+  }
+  .sistem.w-60 {
+    width: 100%;
+  }
+  .robot {
+    height: 249px;
+    margin-top: 35%;
+    margin-bottom: 35%;
+  }
+  .latar-belakang .mt-5 {
+    margin-top: 1rem !important;
+  }
+
+  .manfaat .col-md-4 {
+    width: 100%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .manfaat .col-md-7 {
+    width: 100%;
+  }
+
+  .keunggulan .col-sm-6.maskot {
+    width: 33.33333%;
+    margin-top: 1rem !important;
+  }
+  .keunggulan .col-sm-6.text-maskot {
+    width: 66.66667%;
+    margin-top: 1rem !important;
+  }
+  .keunggulan .maskot img {
+    width: 120%;
+    margin-top: 108%;
+  }
+  .kontak {
+    margin-top: 3rem;
+  }
+  .hubungi-kami .col-6 {
+    width: 100%;
+  }
+  .hubungi-kami {
+    background-position-x: center;
+  }
+  .manfaat .card {
+    height: 269px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero .w-50 {
+    width: 100% !important;
+  }
+  .hero {
+    background-position-x: center;
+  }
+  .text {
+    margin-top: 6rem;
+  }
+  .sistem {
+    margin-top: 2rem;
+    padding: 3rem;
+  }
+  .sistem p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto !important;
+  }
+  .sistem.w-60 {
+    width: 80%;
+  }
+  .sistem .icon,
+  .sistem .icon-1 {
+    margin-bottom: 1rem !important;
+  }
+  .robot {
+    display: none;
+  }
+  .latar-belakang .mt-5 {
+    margin-top: -1.5rem !important;
+  }
+
+  .manfaat .col-md-4 {
+    width: 100%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .manfaat .col-md-7 {
+    width: 100%;
+  }
+
+  .manfaat .col-4 {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .manfaat.py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 6rem !important;
+  }
+
+  .keunggulan .col-sm-6.maskot {
+    display: none;
+  }
+  .keunggulan .col-sm-6.text-maskot {
+    width: 100%;
+    margin-top: 1rem !important;
+  }
+  .text-maskot .col-2 {
+    padding: 0px;
+  }
+  .kontak {
+    margin-top: 3rem;
+  }
+  .hubungi-kami .col-6 {
+    width: 100%;
+  }
+  .hubungi-kami {
+    background-position-x: center;
+  }
+  .manfaat .card {
+    height: 269px;
+  }
+}

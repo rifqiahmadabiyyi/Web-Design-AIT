@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Overlock";
+}
+
+h5,
+h6,
+p,
+a,
+button {
+  font-family: "Montserrat";
+}
+
+button:hover {
+  background-color: #ff4b04;
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 2px solid #ff4b04;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-white .nav-link {
+  color: rgba(61, 61, 61, 0.69) !important;
+}
+
+.navbar-white .nav-link:hover {
+  color: #000 !important;
+}
+
+.navbar-white .collapse {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  transition: 0.4s ease-in-out;
+}
+
+.navbar {
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-white {
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease-in-out;
+}
+
+hr {
+  width: 25%;
+  border: 2px solid #008ff5;
+}
+
+.w-32 {
+  width: 32% !important;
+}
+
+.hero {
+  background: url(../img/Header.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.text h5 {
+  width: 70%;
+}
+
+.text {
+  margin-top: 11rem;
+}
+
+.btn-1 {
+  background-color: #ff6224;
+  color: white;
+}
+
+.sistem {
+  margin-top: 6rem;
+  position: relative;
+  color: #042558;
+  z-index: 0;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 5%);
+}
+
+.fw-300 {
+  font-weight: 200 !important;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.latar-belakang p {
+  font-family: "Mukta";
+}
+
+.robot {
+  height: 430px;
+}
+
+.latar-belakang {
+  background-image: url("../img/Latar\ Belakang.png");
+  background-size: cover;
+  max-height: 557px;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.tujuan p {
+  font-family: "Montserrat";
+}
+
+.tujuan h3 {
+  font-weight: bold;
+}
+
+.tujuan {
+  background-image: url("../img/Tujuan.png");
+  background-size: cover;
+  min-height: 554px;
+}
+
+.tujuan .container {
+  padding-top: 3.5rem;
+}
+
+.manfaat {
+  background-image: url("../img/Manfaat.png");
+  background-size: cover;
+
+  width: 100%;
+}
+
+.icon_titik {
+  margin-top: -0.75rem;
+}
+
+.manfaat .card {
+  border-radius: 30px;
+  height: 252px;
+}
+
+.fitur {
+  background-image: url(../img/Fitur.png);
+  background-size: cover;
+  margin-bottom: 6rem;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.keunggulan {
+  background-image: url(../img/Keunggulan.png);
+  background-size: cover;
+  height: 580px;
+  width: 100%;
+}
+
+.keunggulan img {
+  box-shadow: 0px 4px 4px 0px #000000 10%;
+}
+
+.keunggulan .col-10 p {
+  font-size: 14px;
+}
+
+.mt-6 {
+  margin-top: 4rem;
+}
+
+.keunggulan h6 {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.hubungi-kami {
+  background-image: url(../img/Kontak\ Kami.png);
+  background-size: cover;
+}
+
+.kontak {
+  padding: 3rem;
+  margin-top: 8rem;
+}
+
+.footer {
+  color: white;
+  background-color: #0050cc;
+  padding: 1rem;
+}
+
+.icon {
+  width: 18%;
+  height: 100%;
+  margin-right: 0.5rem;
+}
+
+.icon-1 {
+  width: 15%;
+  height: 100%;
+  margin-right: 0.5rem;
+}
+
+.fitur img {
+  width: inherit;
+}
+
+.judul-1[data-scroll="in"],
+.judul-2[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transform: translateX(0px);
+}
+
+.judul-1[data-scroll="out"],
+.judul-2[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(40px);
+}
+
+.down[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 0.2s;
+  transform: translateY(0px);
+}
+
+.down[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(40px);
+}
+
+.down-delay-1[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 0.2s;
+  transform: translateY(0px);
+}
+
+.down-delay-1[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(40px);
+}
+
+.down-delay-2[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 0.4s;
+  transform: translateY(0px);
+}
+
+.down-delay-3[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 0.6s;
+  transform: translateY(0px);
+}
+
+.down-delay-3[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(40px);
+}
+
+.down-delay-2[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(40px);
+}
+
+.slide[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transform: translateX(0px);
+}
+
+.slide[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(-40px);
+}
+
+.slide-delay-1[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 0.4s;
+  transform: translateX(0px);
+}
+
+.slide-delay-1[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(-40px);
+}
+.slide-delay-2[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 0.6s;
+  transform: translateX(0px);
+}
+
+.slide-delay-2[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(-40px);
+}
+
+.slide-delay-3[data-scroll="in"] {
+  opacity: 1;
+  transition: 1s;
+  transition-delay: 0.8s;
+  transform: translateX(0px);
+}
+
+.slide-delay-3[data-scroll="out"] {
+  opacity: 0;
+  transition: 1s;
+  transform: translateX(-40px);
+}
+
+[data-scroll] {
+  transition: opacity 1.5s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
+
+.w-85 {
+  width: 85% !important;
+}
